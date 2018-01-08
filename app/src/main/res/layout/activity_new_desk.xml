@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gray_background"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/welcome_desk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Got a free desk to offer? Great!"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/pic_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_desk"
+        android:text="Please specify date of availability:"
+        android:layout_margin="16dp"
+        />
+
+    <Button
+        android:id="@+id/pic_date_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/pic_date"
+        android:hint="@string/pick_date_prompt"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/new_desk_instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pic_date_button"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Please enter your name and team as instructed below and click add once you've done."/>
+
+    <EditText
+        android:id="@+id/desk_name_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/new_desk_instruction"
+        android:hint="Enter Your Name"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/desk_team_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/desk_name_prompt"
+        android:hint="Enter Your Team Name"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/desk_team_prompt"
+        android:text="Add"/>
+
+</RelativeLayout>

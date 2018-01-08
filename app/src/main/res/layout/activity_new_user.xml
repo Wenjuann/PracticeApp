@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gray_background"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/welcome_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Welcome to the Desko App!"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_line"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Please enter your name and team as instructed below and click register once you've done."/>
+
+    <EditText
+        android:id="@+id/name_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/instruction"
+        android:hint="Enter Your Name"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/team_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/name_prompt"
+        android:hint="Enter Your Team Name"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/team_prompt"
+        android:text="Register"/>
+
+</RelativeLayout>

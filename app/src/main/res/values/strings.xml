@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">DesKo</string>
+    <string name="team_prompt">Choose a Team</string>
+    <string name="name_prompt">What is your name</string>
+
+    <string name="pick_date_prompt">Click to pick a date</string>
+
+    <string-array name="team_array">
+        <item>Choose a Team</item>
+        <item>Platform</item>
+        <item>Core</item>
+        <item>Passport</item>
+        <item>Tablets</item>
+        <item>M-Commerce</item>
+        <item>Statements</item>
+        <item>Personal Account Servicing</item>
+    </string-array>
+
+    <string-array name="name_array">
+        <item>What is your name</item>
+        <item>Wenjuan</item>
+        <item>Miklos</item>
+        <item>Ankit</item>
+        <item>Martyna</item>
+        <item>Sameer</item>
+        <item>Simon</item>
+        <item>Julie</item>
+        <item>Shu</item>
+        <item>Andrea</item>
+        <item>Massimo</item>
+    </string-array>
+    <string name="title_activity_register">RegisterActivity</string>
+
+</resources>

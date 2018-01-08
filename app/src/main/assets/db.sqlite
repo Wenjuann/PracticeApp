@@ -1,0 +1,5 @@
+CREATE TABLE
+IF NOT EXISTS employees (
+name text NOT NULL,
+team_name text NOT NULL
+);
